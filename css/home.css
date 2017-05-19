@@ -1,0 +1,339 @@
+/* header */
+/* document */
+*{
+	margin:0;
+	padding:0;
+	border-width:0;
+	font-family: arial;
+}
+body{
+	color: white;
+	text-align: center;
+	position: relative;
+	background-image: url("../images/bg.jpg");
+	padding: 0;
+	margin: 0;
+	font-style: arial;
+}
+.wrap{
+	position: relative;
+	width: 1200px;
+	/*height: 1000px;*/
+	background-color: #1c1c1c;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+    box-shadow:0 0 10px 0 black inset;
+}
+.header{
+	height: 150px;
+	background-image: url("../images/pattern.png");
+	background-repeat: repeat;
+	border-bottom: solid 20px #1c1c1c;
+	box-shadow:0 0 20px 0 black;
+	z-index: 10;	
+}
+.logo{
+	float: left;
+	width: 500px;
+	height: 140px;
+	background-image: url("../images/logo_pink.png");
+	background-size: 100%;
+	margin-top: 35px;
+	margin-bottom: -20px;
+}
+.menus ul{
+	width: 580px;	
+	position: relative;
+	list-style: none;
+	background: #1c1c1c;
+	display: block;
+	float: right;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 120px; 
+}
+.menus ul li{
+	background: #1c1c1c;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	float: right;
+	padding: 10px 25px;
+}
+.menus a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Freestyle Script;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+.menus  ul li a:hover {
+	color: deeppink;
+}
+.menus  ul li a:active {
+	color: deeppink;
+}
+.menus ul li ul.sub{
+	position: absolute;
+	top: -70px;
+	left: 110px;
+	display: none;
+	float: left;
+	width: 360px;
+}
+.menus ul li ul.sub li{
+	background-color: black;
+		border-radius: 0; 
+	display: block;
+}
+/*.menus ul:hover ul.sub{
+	display: block;
+}*/
+.menus ul li.has-sub:hover ul.sub{
+	border-top: solid 2px black;
+	display: block;
+}
+
+
+/*countries options*/
+.back-to-country{
+	text-align: center;
+	clear: both;
+	position: relative;
+	display: block;
+	margin: 10px auto 30px;
+}
+.back-to-country a{
+	display: inline-block;
+	padding: 10px 20px;
+	border: solid 2px rgba(208, 29, 84, 0.88);
+	text-decoration: none;
+	color: rgba(208, 29, 84, 0.88);
+	font-size: 24px;
+	border-radius: 10px;
+	position: relative;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+} 
+.back-to-country a:hover{
+	background-color: black;
+	color: deeppink;
+	box-shadow: 0 0 10px 0 rgba(208, 29, 84, 0.88);
+}
+/*or line*/
+.explore-more{
+	display: block;
+	border-top: solid 1px rgba(208, 29, 84, 0.88);	
+	border-bottom: solid 1px rgba(208, 29, 84, 0.88);
+	padding: 5px 0;
+	margin: 50px auto;
+	clear: both;
+	position: relative;
+	width: 500px;
+}
+.explore-more p{
+	display: relative;
+	margin: 0 auto;
+	color: rgba(208, 29, 84, 0.88);
+	margin-left: 210px;
+	font-size: 25px;
+	padding: 20px;
+}
+/*countries div*/
+.countries{
+	margin-top: 50px;
+	position: relative;
+	width: 1200px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+.country-list{
+	list-style-type: none;
+	display: table;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.country{
+	position: relative;
+	float: left;
+	display: table-cell;
+	width: 200px;
+	margin-right: 15px;
+	margin-left: 15px;
+	background-color: #1c1c1c;
+}
+#country1,#country2,#country3,#country4{
+width: 200px;
+height: 200px;
+border-radius: 100px;
+border:solid 2px rgba(208, 29, 84, 0.88);
+border-color: rgba(208, 29, 84, 0.88);
+margin-right: auto;
+margin-left: auto;
+background-size: 200px;
+position: relative;
+opacity: 0.6;
+filter: alpha(opacity=60);
+-webkit-transition: all 0.30s ease-in-out;
+-moz-transition: all 0.30s ease-in-out;
+-ms-transition: all 0.30s ease-in-out;
+-o-transition: all 0.30s ease-in-out;
+
+}
+#country1{
+background-image: url("../images/Cairo_black.jpg");
+}
+#country2{
+background-image: url("../images/india_black.jpg");
+}
+#country3{
+background-image: url("../images/germany_black.jpg");
+}
+#country4{
+background-image: url("../images/japan_black.jpg");
+}
+
+#country1:hover{
+background-image: url("../images/Cairo_Colored.jpg");
+}
+#country2:hover{
+background-image: url("../images/india_Colored.jpg");
+}
+#country3:hover{
+background-image: url("../images/germany_colored.jpg");
+}
+#country4:hover{
+background-image: url("../images/japan_colored.jpg");
+}
+#country1:hover,#country2:hover,#country3:hover,#country4:hover{
+opacity: 1;
+filter: alpha(opacity=100);
+}
+.country div a span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+/*footer*/
+.footer{
+	position: relative;
+	clear: both;
+	margin-top: 50px;
+	border-top:solid 10px black;
+	background-image: url("../images/Pattern.png");
+	background-repeat: repeat; 
+}
+
+/*social media & retail*/
+.social-retail{
+	margin:10px;
+	padding: 10px 120px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px auto;
+	
+	height:100px;
+	background-color: #1c1c1c;
+	box-shadow:0 0 10px 0 black inset;
+}
+.social-retail div{
+	position: relative;
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: 30px;
+	margin-left: 30px;
+	float: left;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+.social-retail div a span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+/*normal*/
+.social-retail #facebook{
+	background-image: url("../images/facebook-pink.png");
+	background-size: 100px;
+
+}
+.social-retail #twitter{
+	background-image: url("../images/twitter-pink.png");
+	background-size: 100px;
+}
+.social-retail #instegram{
+	background-image: url("../images/instegram-pink.png");
+	background-size: 100px;
+}
+.social-retail #linkedin{
+	background-image: url("../images/LinkedIn-pink.png");
+	background-size: 100px;
+}
+.social-retail #youtube{
+	background-image: url("../images/youtube-pink.png");
+	background-size: 100px;
+}
+.social-retail #paint{
+	background-image: url("../images/paint-pink.png");
+	background-size: 100px;
+}
+
+/*hovered*/
+.social-retail #facebook:hover{
+	background-image: url("../images/facebook-hover-pink.png");
+	background-size: 100px;
+}
+.social-retail #twitter:hover{
+	background-image: url("../images/twitter-hover-pink.png");
+	background-size: 100px;
+}
+.social-retail #instegram:hover{
+	background-image: url("../images/instegram-hover-pink.png");
+	background-size: 100px;
+}
+.social-retail #linkedin:hover{
+	background-image: url("../images/LinkedIn-hover-pink.png");
+	background-size: 100px;
+}
+.social-retail #youtube:hover{
+	background-image: url("../images/youtube-hover-pink.png");
+	background-size: 100px;
+}
+.social-retail #paint:hover{
+	background-image: url("../images/paint-hover-pink.png");
+	background-size: 100px;
+}
+
+/*copyright*/
+.copyright{
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 30px;
+	float: none;
+	clear: both;
+	width:100%;
+}
+.copyright p{
+	padding-top: 5px;
+}
+
+

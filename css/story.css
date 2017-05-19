@@ -1,0 +1,289 @@
+/* document */
+*{
+	margin:0;
+	padding:0;
+	border-width:0;
+	font-family: arial;
+}
+
+p{
+	color: deeppink;
+}
+body{
+	text-align: center;
+	position: relative;
+	background-image: url("../images/bg.jpg");
+	padding: 0;
+	margin: 0;
+}
+.wrap{
+	position: relative;
+	width: 1200px;
+	/*height: 1000px;*/
+	background-color: #1c1c1c;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+    box-shadow:0 0 10px 0 black inset;
+}
+/* header */
+.header{
+	height: 150px;
+	background-image: url("../images/pattern.png");
+	background-repeat: repeat;
+	border-bottom: solid 20px #1c1c1c;
+	box-shadow:0 0 20px 0 black;	
+}
+.logo{
+	float: left;
+	width: 500px;
+	height: 140px;
+	background-image: url("../images/logo_pink.png");
+	background-size: 100%;
+	margin-top: 35px;
+	margin-bottom: -20px;
+}
+.menus ul{
+	width: 580px;	
+	position: relative;
+	list-style: none;
+	background: #1c1c1c;
+	display: block;
+	float: right;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 120px; 
+}
+.menus ul li{
+
+	background: #1c1c1c;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	float: right;
+	padding: 10px 25px;
+
+}
+.menus a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Freestyle Script;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+.menus  ul li a:hover {
+	color: deeppink;
+}
+.menus  ul li a:active {
+	color: deeppink;
+}
+.menus ul li ul.sub{
+	position: absolute;
+	top: -70px;
+	left: 110px;
+	display: none;
+	float: left;
+	width: 360px;
+}
+.menus ul li ul.sub li{
+	background-color: black;
+}
+/*.menus ul:hover ul.sub{
+	display: block;
+}*/
+.menus ul li.has-sub:hover ul.sub{
+	border-top: solid 2px black;
+	border-radius: 0; 
+	display: block;
+}
+/* body */
+
+/*footer*/
+.footer{
+	position: relative;
+	width: 1200px;
+	clear: both;
+	margin-top: 50px;
+	border-top:solid 10px black;
+	background-image: url("../images/Pattern.png");
+	background-repeat: repeat; 
+}
+
+/*social media & retail*/
+.social-retail{
+	margin:10px;
+	padding: 10px 120px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px auto;
+	
+	height:100px;
+	background-color: #1c1c1c;
+	box-shadow:0 0 10px 0 black inset;
+}
+.social-retail div{
+	position: relative;
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: 30px;
+	margin-left: 30px;
+	float: left;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+.social-retail div a span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+/*normal*/
+.social-retail #facebook{
+	background-image: url("../images/facebook-pink.png");
+	background-size: 100px;
+
+}
+.social-retail #twitter{
+	background-image: url("../images/twitter-pink.png");
+	background-size: 100px;
+}
+.social-retail #instegram{
+	background-image: url("../images/instegram-pink.png");
+	background-size: 100px;
+}
+.social-retail #linkedin{
+	background-image: url("../images/LinkedIn-pink.png");
+	background-size: 100px;
+}
+.social-retail #youtube{
+	background-image: url("../images/youtube-pink.png");
+	background-size: 100px;
+}
+.social-retail #paint{
+	background-image: url("../images/paint-pink.png");
+	background-size: 100px;
+}
+
+/*hovered*/
+.social-retail #facebook:hover{
+	background-image: url("../images/facebook-hover-pink.png");
+	background-size: 100px;
+}
+.social-retail #twitter:hover{
+	background-image: url("../images/twitter-hover-pink.png");
+	background-size: 100px;
+}
+.social-retail #instegram:hover{
+	background-image: url("../images/instegram-hover-pink.png");
+	background-size: 100px;
+}
+.social-retail #linkedin:hover{
+	background-image: url("../images/LinkedIn-hover-pink.png");
+	background-size: 100px;
+}
+.social-retail #youtube:hover{
+	background-image: url("../images/youtube-hover-pink.png");
+	background-size: 100px;
+}
+.social-retail #paint:hover{
+	background-image: url("../images/paint-hover-pink.png");
+	background-size: 100px;
+}
+
+/*copyright*/
+.copyright{
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 30px;
+	float: none;
+	clear: both;
+	width:100%;
+}
+.copyright p{
+	padding-top: 5px;
+}
+/***/
+.divs{
+	text-align: center;
+	width:100%;
+	height:100%;
+	margin-bottom:10%;
+}
+.divs img{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.hebe{
+	text-align:center;
+}
+hr{
+	width:50%;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+	position:left;	
+}
+.div{width:20px;
+	height:20px;
+	top: 200px;
+	left:100px;
+	position: fixed;
+    display: inline-block;
+}
+
+.sana{
+	 display: none;
+     background-color:white;
+	 text-align:right;
+	 border-radius:50%;	 
+	text-decoration: none;
+	font-size: 25px;
+	font-family: arial;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+a{
+	text-decoration: none;
+	font-style: arial;
+	font-size:12px; 
+	color: deeppink;
+
+}
+li:hover .sana {
+	border-radius:5px;	
+	padding: 5px;
+    display:inline;
+    vertical-align: middle;
+	text-align:left-side;
+	background-color: black;
+	position: relative;
+	left: 30px;
+	top: -5px;
+	box-shadow: 0 0 15px 0 deeppink;	
+	
+}
+.li{
+	display:block;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background-color: deeppink;
+	margin: 15px;
+}
+
+.f{
+	text-align:center;
+	color:white;
+	
+}

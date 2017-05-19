@@ -1,0 +1,319 @@
+/* document */
+*{
+	margin:0;
+	padding:0;
+	border-width:0;
+	font-family: arial;
+}
+
+p{
+	color: #e4bc72;
+}
+body{
+	text-align: center;
+	position: relative;
+	background-image: url("../images/bg.jpg");
+	padding: 0;
+	margin: 0;
+}
+.wrap{
+	position: relative;
+	width: 1200px;
+	/*height: 1000px;*/
+	background-color: #1c1c1c;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+    box-shadow:0 0 10px 0 black inset;
+}
+/* header */
+.header{
+	height: 150px;
+	background-image: url("../images/pattern.png");
+	background-repeat: repeat;
+	border-bottom: solid 20px #1c1c1c;
+	box-shadow:0 0 20px 0 black;	
+}
+.logo{
+	float: left;
+	width: 500px;
+	height: 140px;
+	background-image: url("../images/logo_cafe.png");
+	background-size: 100%;
+	margin-top: 35px;
+	margin-bottom: -20px;
+}
+.menus ul{
+	width: 580px;	
+	position: relative;
+	list-style: none;
+	background: #1c1c1c;
+	display: block;
+	float: right;
+	height: 50px;
+	border-radius: 10px;
+	margin-top: 120px; 
+}
+.menus ul li{
+
+	background: #1c1c1c;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	float: right;
+	padding: 10px 25px;
+
+}
+.menus a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Freestyle Script;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+.menus  ul li a:hover {
+	color: #e4bc72;
+}
+.menus  ul li a:active {
+	color: #e4bc72;
+}
+.menus ul li ul.sub{
+	position: absolute;
+	top: -70px;
+	left: 110px;
+	display: none;
+	float: left;
+	width: 360px;
+}
+.menus ul li ul.sub li{
+	background-color: black;
+}
+/*.menus ul:hover ul.sub{
+	display: block;
+}*/
+.menus ul li.has-sub:hover ul.sub{
+	border-top: solid 2px black;
+	border-radius: 0; 
+	display: block;
+}
+/* body */
+
+.branch{
+	padding: 20px;
+	margin-right: 60px;
+	float: right;
+	width: 200px;
+	background-image: url("../images/pattern.png");
+	background-repeat: repeat;
+	border-radius: 20px;
+	color: #e4bc72;
+	margin-bottom: 14px;
+}
+.retailer{
+	width: 800px;
+	margin-left: 50px;
+	background-image: url("../images/pattern.png");
+	background-repeat: repeat;
+	border-radius: 20px;
+}
+.branch h1{
+	color: #e4bc72;
+	margin-bottom: 20px;
+	background-color: #1c1c1c;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+.branch dl{
+	background-color: #1c1c1c;
+	padding: 10px;
+	border-radius: 10px;
+}
+.branch dt{
+	margin: 5px 0;
+	color: #d9d9d9;
+}
+.retailer span{
+color: rgb(12, 12, 12);
+
+}
+
+.retailer form{
+	margin: 50px 20px;
+	padding: 50px 20px;
+}
+.retailer p{
+	display: block;
+	clear: both;
+	margin-bottom: 20px;
+}
+.retailer .btn{
+	vertical-align: middle;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	background-color: #1c1c1c;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+	color: #ac8e56;
+	font-size: 20px;
+	border: 1px solid #1c1c1c;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+.retailer .btn:hover{
+	background-color: black;
+	box-shadow: 0 0 5px #ac8e56;
+	border: 1px solid #ac8e56;
+	color: #ac8e56;
+}
+input[type=text] , textarea , input[type=mail], select{
+    width: 225px;
+    color: #e4bc72;
+    padding: 6px 10px;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    -webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+}
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+input[type=text]:focus ,textarea:focus, input[type=mail]:focus {
+    background-color: black ;
+    color: #e4bc72; 
+  	box-shadow: 0 0 5px #ac8e56;
+/*  	padding: 3px 0px 3px 3px;
+  	margin: 5px 1px 3px 0px;*/
+  	border: 1px solid #ac8e56; 
+}
+textarea{
+	display: inline;
+    height: 125px;
+    resize: none;
+    background-color: #1c1c1c;
+}
+
+
+/*social media & retail*/
+.social-retail{
+	margin:10px;
+	padding: 10px 120px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px auto;
+	
+	height:100px;
+	background-color: #1c1c1c;
+	box-shadow:0 0 10px 0 black inset;
+}
+.social-retail div{
+	position: relative;
+	display: block;
+	height: 100px;
+	width: 100px;
+	margin-right: 30px;
+	margin-left: 30px;
+	float: left;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+.social-retail div a span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+/*normal*/
+.social-retail #facebook{
+	background-image: url("../images/facebook.png");
+	background-size: 100px;
+
+}
+.social-retail #twitter{
+	background-image: url("../images/twitter.png");
+	background-size: 100px;
+}
+.social-retail #instegram{
+	background-image: url("../images/instegram.png");
+	background-size: 100px;
+}
+.social-retail #linkedin{
+	background-image: url("../images/LinkedIn.png");
+	background-size: 100px;
+}
+.social-retail #youtube{
+	background-image: url("../images/youtube.png");
+	background-size: 100px;
+}
+.social-retail #paint{
+	background-image: url("../images/paint.png");
+	background-size: 100px;
+}
+
+/*hovered*/
+.social-retail #facebook:hover{
+	background-image: url("../images/facebook-hover.png");
+	background-size: 100px;
+}
+.social-retail #twitter:hover{
+	background-image: url("../images/twitter-hover.png");
+	background-size: 100px;
+}
+.social-retail #instegram:hover{
+	background-image: url("../images/instegram-hover.png");
+	background-size: 100px;
+}
+.social-retail #linkedin:hover{
+	background-image: url("../images/LinkedIn-hover.png");
+	background-size: 100px;
+}
+.social-retail #youtube:hover{
+	background-image: url("../images/youtube-hover.png");
+	background-size: 100px;
+}
+.social-retail #paint:hover{
+	background-image: url("../images/paint-hover.png");
+	background-size: 100px;
+}
+
+/*copyright*/
+.copyright{
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 30px;
+	float: none;
+	clear: both;
+	width:100%;
+}
+.copyright p{
+	padding-top: 5px;
+}
