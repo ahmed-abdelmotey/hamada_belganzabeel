@@ -240,7 +240,7 @@ filter: alpha(opacity=100);
 	width: 1170px;
 	margin-right: auto;
 	margin-left: auto;
-	background-image: url("../images/Pattern.png");
+	background-image: url("../images/pattern.png");
 	background-repeat: repeat;
 	border-style:solid;
 	border-width: 1px 15px;
@@ -374,7 +374,7 @@ filter: alpha(opacity=100);
 	margin-top: 50px;
 	border-top:solid 10px black;
 	padding-top: 10px;
-	background-image: url("../images/Pattern.png");
+	background-image: url("../images/pattern.png");
 	background-repeat: repeat; 
 }
 .footer div{
