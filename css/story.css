@@ -4,6 +4,10 @@
 	padding:0;
 	border-width:0;
 	font-family: arial;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
 }
 
 p{
@@ -26,7 +30,6 @@ body{
 	margin-left: auto;
     box-shadow:0 0 10px 0 black inset;
 }
-/* header */
 .header{
 	height: 150px;
 	background-image: url("../images/pattern.png");
@@ -43,11 +46,11 @@ body{
 	margin-top: 35px;
 	margin-bottom: -20px;
 }
+
 .menus ul{
-	width: 580px;	
+	width: 660px;	
 	position: relative;
 	list-style: none;
-	background: #1c1c1c;
 	display: block;
 	float: right;
 	height: 50px;
@@ -61,18 +64,14 @@ body{
 	text-align: center;
 	vertical-align: middle;
 	float: right;
-	padding: 10px 25px;
+	padding: 10px 20px;
 
 }
 .menus a{
 	color: white;
 	text-decoration: none;
-	font-size: 25px;
-	font-family: Freestyle Script;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
+	font-size: 20px;
+
 }
 .menus  ul li a:hover {
 	color: deeppink;
@@ -82,20 +81,17 @@ body{
 }
 .menus ul li ul.sub{
 	position: absolute;
-	top: -70px;
-	left: 110px;
+	top: -80px;
+	right: 110px;
 	display: none;
 	float: left;
-	width: 360px;
 }
 .menus ul li ul.sub li{
+	margin: 0 2px;
+	border-radius: 5px;
 	background-color: black;
 }
-/*.menus ul:hover ul.sub{
-	display: block;
-}*/
 .menus ul li.has-sub:hover ul.sub{
-	border-top: solid 2px black;
 	border-radius: 0; 
 	display: block;
 }
